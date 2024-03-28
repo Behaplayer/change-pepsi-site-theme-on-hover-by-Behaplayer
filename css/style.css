@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+body {
+  background-color: #0163a8;
+  font-family: cursive;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 1580px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.list__img {
+  width: 100px;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.list__text {
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.hero__title {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.hero__text {
+  width: 800px;
+  margin-bottom: 30px;
+}
+
+#titlePepsi {
+  max-width: 250px;
+  height: 500px;
+}
+
+.hero__btn {
+  padding: 15px 30px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  outline: none;
+  border: 1px #014d83 solid;
+  background-color: #027fd8;
+  color: white;
+  cursor: pointer;
+}
+
+.pepsiBox {
+  display: flex;
+}
+
+.idk {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.jsPepsiBox {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#jsPepsiBox__firstPepsi {
+  max-width: 120px;
+  height: 180px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -ms-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+}
+
+#jsPepsiBox__firstPepsi:hover {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+
+#jsPepsiBox__secondPepsi {
+  max-width: 120px;
+  height: 180px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -ms-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+}
+
+#jsPepsiBox__secondPepsi:hover {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+
+#jsPepsiBox__thirdPepsi {
+  max-width: 120px;
+  height: 180px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -ms-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+}
+
+#jsPepsiBox__thirdPepsi:hover {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+
+.coolImgLol {
+  width: 50px;
+}
